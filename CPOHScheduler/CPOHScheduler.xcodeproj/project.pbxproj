@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C21D17E2266A8F00008312B /* NaviToScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21D17D2266A8F00008312B /* NaviToScheduleVC.swift */; };
+		6C21D1802266B7B40008312B /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21D17F2266B7B40008312B /* ScheduleVC.swift */; };
+		6C43052F2268664D00B2F81A /* TenClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C43052C2268654300B2F81A /* TenClock.framework */; };
+		6C4305302268664D00B2F81A /* TenClock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C43052C2268654300B2F81A /* TenClock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C43055F2268691C00B2F81A /* WWCalendarTimeSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C43055E2268690300B2F81A /* WWCalendarTimeSelector.framework */; };
+		6C4305602268691C00B2F81A /* WWCalendarTimeSelector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C43055E2268690300B2F81A /* WWCalendarTimeSelector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C430564226954C800B2F81A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C430563226954C800B2F81A /* Global.swift */; };
+		6C4305662269560300B2F81A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4305652269560300B2F81A /* Extension.swift */; };
+		6C4305692269767100B2F81A /* DeleteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4305682269767100B2F81A /* DeleteManager.swift */; };
+		6C49EDD22262951E00BC95D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EDD12262951E00BC95D8 /* AppDelegate.swift */; };
+		6C49EDD42262951E00BC95D8 /* ClassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EDD32262951E00BC95D8 /* ClassesVC.swift */; };
+		6C49EDD72262951E00BC95D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C49EDD52262951E00BC95D8 /* Main.storyboard */; };
+		6C49EDDA2262951E00BC95D8 /* CPOHScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EDD82262951E00BC95D8 /* CPOHScheduler.xcdatamodeld */; };
+		6C49EDDC2262952000BC95D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C49EDDB2262952000BC95D8 /* Assets.xcassets */; };
+		6C49EDDF2262952000BC95D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C49EDDD2262952000BC95D8 /* LaunchScreen.storyboard */; };
+		6C49EDEA2262952000BC95D8 /* CPOHSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EDE92262952000BC95D8 /* CPOHSchedulerTests.swift */; };
+		6C49EDF52262952000BC95D8 /* CPOHSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EDF42262952000BC95D8 /* CPOHSchedulerUITests.swift */; };
+		6C6A58DA2262DA8C00CC9C48 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A58D92262DA8C00CC9C48 /* CalendarVC.swift */; };
+		6C8762B6226C61CC009B6B24 /* ClassCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762B5226C61CC009B6B24 /* ClassCVCell.swift */; };
+		6C8762B8226C6B29009B6B24 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762B7226C6B29009B6B24 /* Class.swift */; };
+		6C8762BA226C6B38009B6B24 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762B9226C6B38009B6B24 /* ClassModel.swift */; };
+		6C8762BE226C7762009B6B24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C8762BD226C7762009B6B24 /* GoogleService-Info.plist */; };
+		6C8762C0226D7F28009B6B24 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762BF226D7F28009B6B24 /* TabBarVC.swift */; };
+		6C8762C2226D8DF1009B6B24 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762C1226D8DF1009B6B24 /* MeVC.swift */; };
+		6C8762C62272C9E3009B6B24 /* AddClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762C52272C9E3009B6B24 /* AddClassVC.swift */; };
+		6C8762CA2272D983009B6B24 /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762C92272D983009B6B24 /* Instructor.swift */; };
+		6C8762CC2272D9BC009B6B24 /* InstructorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8762CB2272D9BC009B6B24 /* InstructorModel.swift */; };
+		6C8762D822751AED009B6B24 /* USC Campus Drone Tour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C8762D722751AED009B6B24 /* USC Campus Drone Tour.mp4 */; };
+		6CB66B372268467300906D3A /* EventWithId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB66B362268467300906D3A /* EventWithId.swift */; };
+		6CB66B39226856CA00906D3A /* RescheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB66B38226856CA00906D3A /* RescheduleVC.swift */; };
+		6CFB740B2262F7E4006C6166 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB740A2262F7E4006C6166 /* Appointment.swift */; };
+		6CFB740E2264541A006C6166 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB740D2264541A006C6166 /* SignInVC.swift */; };
+		6CFB74132265676F006C6166 /* ManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB74122265676F006C6166 /* ManagerBase.swift */; };
+		6CFB741522656786006C6166 /* GoogleServerAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB741422656786006C6166 /* GoogleServerAPIManager.swift */; };
+		6CFB7417226567A1006C6166 /* PutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB7416226567A1006C6166 /* PutManager.swift */; };
+		6CFB741922656805006C6166 /* GetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB741822656805006C6166 /* GetManager.swift */; };
+		6CFB741B22658247006C6166 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB741A22658247006C6166 /* Helper.swift */; };
+		6CFB741F2265917A006C6166 /* AppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB741E2265917A006C6166 /* AppointmentModel.swift */; };
+		7DAEC3ABD30C9DD3EC08277A /* Pods_CPOHSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D049C5D264986F5C8F40FE /* Pods_CPOHSchedulerUITests.framework */; };
+		E00C8E5F768CF50F0D6D25A6 /* Pods_CPOHScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D4AEB36953835C849E5086 /* Pods_CPOHScheduler.framework */; };
+		EFC206C7CE9F7B951656E10D /* Pods_CPOHSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D894055655528A80016C80 /* Pods_CPOHSchedulerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C43052B2268654300B2F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4305272268654300B2F81A /* TenClock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C4305122268650D00B2F81A;
+			remoteInfo = TenClock;
+		};
+		6C4305312268664E00B2F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4305272268654300B2F81A /* TenClock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4305112268650D00B2F81A;
+			remoteInfo = TenClock;
+		};
+		6C43055D2268690300B2F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4305592268690200B2F81A /* WWCalendarTimeSelector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C43053E2268670100B2F81A;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+		6C4305612268691C00B2F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4305592268690200B2F81A /* WWCalendarTimeSelector.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C43053D2268670100B2F81A;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+		6C49EDE62262952000BC95D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C49EDC62262951E00BC95D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C49EDCD2262951E00BC95D8;
+			remoteInfo = CPOHScheduler;
+		};
+		6C49EDF12262952000BC95D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C49EDC62262951E00BC95D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C49EDCD2262951E00BC95D8;
+			remoteInfo = CPOHScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C4305332268664E00B2F81A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C4305602268691C00B2F81A /* WWCalendarTimeSelector.framework in Embed Frameworks */,
+				6C4305302268664D00B2F81A /* TenClock.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BC5B097328BA2D8E5B27EB8 /* Pods-CPOHScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		17D4AEB36953835C849E5086 /* Pods_CPOHScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOHScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C21D17D2266A8F00008312B /* NaviToScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviToScheduleVC.swift; sourceTree = "<group>"; };
+		6C21D17F2266B7B40008312B /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		6C4305272268654300B2F81A /* TenClock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TenClock.xcodeproj; path = ../TenClock/TenClock.xcodeproj; sourceTree = "<group>"; };
+		6C4305592268690200B2F81A /* WWCalendarTimeSelector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WWCalendarTimeSelector.xcodeproj; path = ../WWCalendarTimeSelector/WWCalendarTimeSelector.xcodeproj; sourceTree = "<group>"; };
+		6C430563226954C800B2F81A /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		6C4305652269560300B2F81A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		6C4305682269767100B2F81A /* DeleteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteManager.swift; sourceTree = "<group>"; };
+		6C49EDCE2262951E00BC95D8 /* CPOHScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPOHScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C49EDD12262951E00BC95D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C49EDD32262951E00BC95D8 /* ClassesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesVC.swift; sourceTree = "<group>"; };
+		6C49EDD62262951E00BC95D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C49EDD92262951E00BC95D8 /* CPOHScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CPOHScheduler.xcdatamodel; sourceTree = "<group>"; };
+		6C49EDDB2262952000BC95D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C49EDDE2262952000BC95D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C49EDE02262952000BC95D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C49EDE52262952000BC95D8 /* CPOHSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPOHSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C49EDE92262952000BC95D8 /* CPOHSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOHSchedulerTests.swift; sourceTree = "<group>"; };
+		6C49EDEB2262952000BC95D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C49EDF02262952000BC95D8 /* CPOHSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPOHSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C49EDF42262952000BC95D8 /* CPOHSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPOHSchedulerUITests.swift; sourceTree = "<group>"; };
+		6C49EDF62262952000BC95D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6A58D92262DA8C00CC9C48 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		6C8762B5226C61CC009B6B24 /* ClassCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCVCell.swift; sourceTree = "<group>"; };
+		6C8762B7226C6B29009B6B24 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		6C8762B9226C6B38009B6B24 /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		6C8762BD226C7762009B6B24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C8762BF226D7F28009B6B24 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		6C8762C1226D8DF1009B6B24 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		6C8762C52272C9E3009B6B24 /* AddClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassVC.swift; sourceTree = "<group>"; };
+		6C8762C92272D983009B6B24 /* Instructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		6C8762CB2272D9BC009B6B24 /* InstructorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorModel.swift; sourceTree = "<group>"; };
+		6C8762D722751AED009B6B24 /* USC Campus Drone Tour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "USC Campus Drone Tour.mp4"; sourceTree = "<group>"; };
+		6CB66B362268467300906D3A /* EventWithId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventWithId.swift; sourceTree = "<group>"; };
+		6CB66B38226856CA00906D3A /* RescheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescheduleVC.swift; sourceTree = "<group>"; };
+		6CFB740A2262F7E4006C6166 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		6CFB740D2264541A006C6166 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		6CFB74122265676F006C6166 /* ManagerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerBase.swift; sourceTree = "<group>"; };
+		6CFB741422656786006C6166 /* GoogleServerAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleServerAPIManager.swift; sourceTree = "<group>"; };
+		6CFB7416226567A1006C6166 /* PutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutManager.swift; sourceTree = "<group>"; };
+		6CFB741822656805006C6166 /* GetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetManager.swift; sourceTree = "<group>"; };
+		6CFB741A22658247006C6166 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6CFB741E2265917A006C6166 /* AppointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentModel.swift; sourceTree = "<group>"; };
+		7D48768CFE734BE5369609EB /* Pods-CPOHSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHSchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHSchedulerTests/Pods-CPOHSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		805E8493A10915CEE17E3EFF /* Pods-CPOHScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		83D894055655528A80016C80 /* Pods_CPOHSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOHSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D049C5D264986F5C8F40FE /* Pods_CPOHSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPOHSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933E505458D18BDFE493317E /* Pods-CPOHSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHSchedulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHSchedulerUITests/Pods-CPOHSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		981F6EB13F0B0D666DD63021 /* Pods-CPOHSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHSchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHSchedulerTests/Pods-CPOHSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F68796BA3962FA1C3C7627E6 /* Pods-CPOHSchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPOHSchedulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPOHSchedulerUITests/Pods-CPOHSchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C49EDCB2262951E00BC95D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C43055F2268691C00B2F81A /* WWCalendarTimeSelector.framework in Frameworks */,
+				E00C8E5F768CF50F0D6D25A6 /* Pods_CPOHScheduler.framework in Frameworks */,
+				6C43052F2268664D00B2F81A /* TenClock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDE22262952000BC95D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC206C7CE9F7B951656E10D /* Pods_CPOHSchedulerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDED2262952000BC95D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAEC3ABD30C9DD3EC08277A /* Pods_CPOHSchedulerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4305282268654300B2F81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C43052C2268654300B2F81A /* TenClock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C43055A2268690200B2F81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C43055E2268690300B2F81A /* WWCalendarTimeSelector.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4305672269562A00B2F81A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6C430563226954C800B2F81A /* Global.swift */,
+				6C4305652269560300B2F81A /* Extension.swift */,
+				6CFB741A22658247006C6166 /* Helper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		6C49EDC52262951E00BC95D8 = {
+			isa = PBXGroup;
+			children = (
+				6C4305592268690200B2F81A /* WWCalendarTimeSelector.xcodeproj */,
+				6C4305272268654300B2F81A /* TenClock.xcodeproj */,
+				6C49EDD02262951E00BC95D8 /* CPOHScheduler */,
+				6C49EDE82262952000BC95D8 /* CPOHSchedulerTests */,
+				6C49EDF32262952000BC95D8 /* CPOHSchedulerUITests */,
+				6C49EDCF2262951E00BC95D8 /* Products */,
+				B9CBA27D28F075F2EE873A3E /* Pods */,
+				BF33F811227E44DC5C297738 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C49EDCF2262951E00BC95D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C49EDCE2262951E00BC95D8 /* CPOHScheduler.app */,
+				6C49EDE52262952000BC95D8 /* CPOHSchedulerTests.xctest */,
+				6C49EDF02262952000BC95D8 /* CPOHSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C49EDD02262951E00BC95D8 /* CPOHScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				6C8762D722751AED009B6B24 /* USC Campus Drone Tour.mp4 */,
+				6C4305672269562A00B2F81A /* Helper */,
+				6CFB74112265674E006C6166 /* Manager */,
+				6C49EE022262968400BC95D8 /* Model */,
+				6C49EE03226296A000BC95D8 /* View */,
+				6C49EE04226296BF00BC95D8 /* Controller */,
+				6C49EDD12262951E00BC95D8 /* AppDelegate.swift */,
+				6C49EDE02262952000BC95D8 /* Info.plist */,
+				6C8762BD226C7762009B6B24 /* GoogleService-Info.plist */,
+				6C49EDD82262951E00BC95D8 /* CPOHScheduler.xcdatamodeld */,
+			);
+			path = CPOHScheduler;
+			sourceTree = "<group>";
+		};
+		6C49EDE82262952000BC95D8 /* CPOHSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C49EDE92262952000BC95D8 /* CPOHSchedulerTests.swift */,
+				6C49EDEB2262952000BC95D8 /* Info.plist */,
+			);
+			path = CPOHSchedulerTests;
+			sourceTree = "<group>";
+		};
+		6C49EDF32262952000BC95D8 /* CPOHSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C49EDF42262952000BC95D8 /* CPOHSchedulerUITests.swift */,
+				6C49EDF62262952000BC95D8 /* Info.plist */,
+			);
+			path = CPOHSchedulerUITests;
+			sourceTree = "<group>";
+		};
+		6C49EE022262968400BC95D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C8762C92272D983009B6B24 /* Instructor.swift */,
+				6C8762CB2272D9BC009B6B24 /* InstructorModel.swift */,
+				6C8762B7226C6B29009B6B24 /* Class.swift */,
+				6C8762B9226C6B38009B6B24 /* ClassModel.swift */,
+				6CFB740A2262F7E4006C6166 /* Appointment.swift */,
+				6CFB741E2265917A006C6166 /* AppointmentModel.swift */,
+				6CB66B362268467300906D3A /* EventWithId.swift */,
+				6C49EDDB2262952000BC95D8 /* Assets.xcassets */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6C49EE03226296A000BC95D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C49EDD52262951E00BC95D8 /* Main.storyboard */,
+				6C49EDDD2262952000BC95D8 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6C49EE04226296BF00BC95D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C8762C52272C9E3009B6B24 /* AddClassVC.swift */,
+				6C8762C1226D8DF1009B6B24 /* MeVC.swift */,
+				6C8762BF226D7F28009B6B24 /* TabBarVC.swift */,
+				6CFB740D2264541A006C6166 /* SignInVC.swift */,
+				6C8762B5226C61CC009B6B24 /* ClassCVCell.swift */,
+				6C49EDD32262951E00BC95D8 /* ClassesVC.swift */,
+				6C21D17F2266B7B40008312B /* ScheduleVC.swift */,
+				6CB66B38226856CA00906D3A /* RescheduleVC.swift */,
+				6C21D17D2266A8F00008312B /* NaviToScheduleVC.swift */,
+				6C6A58D92262DA8C00CC9C48 /* CalendarVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6CFB74112265674E006C6166 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6CFB74122265676F006C6166 /* ManagerBase.swift */,
+				6CFB741422656786006C6166 /* GoogleServerAPIManager.swift */,
+				6C4305682269767100B2F81A /* DeleteManager.swift */,
+				6CFB7416226567A1006C6166 /* PutManager.swift */,
+				6CFB741822656805006C6166 /* GetManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B9CBA27D28F075F2EE873A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BC5B097328BA2D8E5B27EB8 /* Pods-CPOHScheduler.debug.xcconfig */,
+				805E8493A10915CEE17E3EFF /* Pods-CPOHScheduler.release.xcconfig */,
+				7D48768CFE734BE5369609EB /* Pods-CPOHSchedulerTests.debug.xcconfig */,
+				981F6EB13F0B0D666DD63021 /* Pods-CPOHSchedulerTests.release.xcconfig */,
+				933E505458D18BDFE493317E /* Pods-CPOHSchedulerUITests.debug.xcconfig */,
+				F68796BA3962FA1C3C7627E6 /* Pods-CPOHSchedulerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF33F811227E44DC5C297738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D4AEB36953835C849E5086 /* Pods_CPOHScheduler.framework */,
+				83D894055655528A80016C80 /* Pods_CPOHSchedulerTests.framework */,
+				84D049C5D264986F5C8F40FE /* Pods_CPOHSchedulerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C49EDCD2262951E00BC95D8 /* CPOHScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C49EDF92262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHScheduler" */;
+			buildPhases = (
+				474BDAC0B7E70611A92AD83B /* [CP] Check Pods Manifest.lock */,
+				6C49EDCA2262951E00BC95D8 /* Sources */,
+				6C49EDCB2262951E00BC95D8 /* Frameworks */,
+				6C49EDCC2262951E00BC95D8 /* Resources */,
+				9AC5A95768E237883D2D99EF /* [CP] Embed Pods Frameworks */,
+				40AFE4668CA2412C57F371AF /* [CP] Copy Pods Resources */,
+				6C4305332268664E00B2F81A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4305322268664E00B2F81A /* PBXTargetDependency */,
+				6C4305622268691C00B2F81A /* PBXTargetDependency */,
+			);
+			name = CPOHScheduler;
+			productName = CPOHScheduler;
+			productReference = 6C49EDCE2262951E00BC95D8 /* CPOHScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C49EDE42262952000BC95D8 /* CPOHSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C49EDFC2262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHSchedulerTests" */;
+			buildPhases = (
+				FD2324709921B9C6F63C7883 /* [CP] Check Pods Manifest.lock */,
+				6C49EDE12262952000BC95D8 /* Sources */,
+				6C49EDE22262952000BC95D8 /* Frameworks */,
+				6C49EDE32262952000BC95D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C49EDE72262952000BC95D8 /* PBXTargetDependency */,
+			);
+			name = CPOHSchedulerTests;
+			productName = CPOHSchedulerTests;
+			productReference = 6C49EDE52262952000BC95D8 /* CPOHSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C49EDEF2262952000BC95D8 /* CPOHSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C49EDFF2262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHSchedulerUITests" */;
+			buildPhases = (
+				FE492B3836DE307E3A845EB3 /* [CP] Check Pods Manifest.lock */,
+				6C49EDEC2262952000BC95D8 /* Sources */,
+				6C49EDED2262952000BC95D8 /* Frameworks */,
+				6C49EDEE2262952000BC95D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C49EDF22262952000BC95D8 /* PBXTargetDependency */,
+			);
+			name = CPOHSchedulerUITests;
+			productName = CPOHSchedulerUITests;
+			productReference = 6C49EDF02262952000BC95D8 /* CPOHSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C49EDC62262951E00BC95D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yulun Zhang";
+				TargetAttributes = {
+					6C49EDCD2262951E00BC95D8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					6C49EDE42262952000BC95D8 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6C49EDCD2262951E00BC95D8;
+					};
+					6C49EDEF2262952000BC95D8 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6C49EDCD2262951E00BC95D8;
+					};
+				};
+			};
+			buildConfigurationList = 6C49EDC92262951E00BC95D8 /* Build configuration list for PBXProject "CPOHScheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C49EDC52262951E00BC95D8;
+			productRefGroup = 6C49EDCF2262951E00BC95D8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6C4305282268654300B2F81A /* Products */;
+					ProjectRef = 6C4305272268654300B2F81A /* TenClock.xcodeproj */;
+				},
+				{
+					ProductGroup = 6C43055A2268690200B2F81A /* Products */;
+					ProjectRef = 6C4305592268690200B2F81A /* WWCalendarTimeSelector.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6C49EDCD2262951E00BC95D8 /* CPOHScheduler */,
+				6C49EDE42262952000BC95D8 /* CPOHSchedulerTests */,
+				6C49EDEF2262952000BC95D8 /* CPOHSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6C43052C2268654300B2F81A /* TenClock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TenClock.framework;
+			remoteRef = 6C43052B2268654300B2F81A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C43055E2268690300B2F81A /* WWCalendarTimeSelector.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WWCalendarTimeSelector.framework;
+			remoteRef = 6C43055D2268690300B2F81A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C49EDCC2262951E00BC95D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C49EDDF2262952000BC95D8 /* LaunchScreen.storyboard in Resources */,
+				6C8762D822751AED009B6B24 /* USC Campus Drone Tour.mp4 in Resources */,
+				6C8762BE226C7762009B6B24 /* GoogleService-Info.plist in Resources */,
+				6C49EDDC2262952000BC95D8 /* Assets.xcassets in Resources */,
+				6C49EDD72262951E00BC95D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDE32262952000BC95D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDEE2262952000BC95D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40AFE4668CA2412C57F371AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474BDAC0B7E70611A92AD83B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPOHScheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC5A95768E237883D2D99EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AeroGearHttp/AeroGearHttp.framework",
+				"${BUILT_PRODUCTS_DIR}/AeroGearOAuth2/AeroGearOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarSwift/CalendarSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DayScheduleView/DayScheduleView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearHttp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DayScheduleView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPOHScheduler/Pods-CPOHScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2324709921B9C6F63C7883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPOHSchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE492B3836DE307E3A845EB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPOHSchedulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C49EDCA2262951E00BC95D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C49EDD42262951E00BC95D8 /* ClassesVC.swift in Sources */,
+				6CFB74132265676F006C6166 /* ManagerBase.swift in Sources */,
+				6C8762CC2272D9BC009B6B24 /* InstructorModel.swift in Sources */,
+				6CFB741522656786006C6166 /* GoogleServerAPIManager.swift in Sources */,
+				6C21D1802266B7B40008312B /* ScheduleVC.swift in Sources */,
+				6C8762BA226C6B38009B6B24 /* ClassModel.swift in Sources */,
+				6CB66B372268467300906D3A /* EventWithId.swift in Sources */,
+				6C49EDDA2262951E00BC95D8 /* CPOHScheduler.xcdatamodeld in Sources */,
+				6C4305692269767100B2F81A /* DeleteManager.swift in Sources */,
+				6CFB741922656805006C6166 /* GetManager.swift in Sources */,
+				6C4305662269560300B2F81A /* Extension.swift in Sources */,
+				6C8762B8226C6B29009B6B24 /* Class.swift in Sources */,
+				6CFB740B2262F7E4006C6166 /* Appointment.swift in Sources */,
+				6CFB740E2264541A006C6166 /* SignInVC.swift in Sources */,
+				6CFB7417226567A1006C6166 /* PutManager.swift in Sources */,
+				6CB66B39226856CA00906D3A /* RescheduleVC.swift in Sources */,
+				6CFB741F2265917A006C6166 /* AppointmentModel.swift in Sources */,
+				6C8762C2226D8DF1009B6B24 /* MeVC.swift in Sources */,
+				6C21D17E2266A8F00008312B /* NaviToScheduleVC.swift in Sources */,
+				6C8762C62272C9E3009B6B24 /* AddClassVC.swift in Sources */,
+				6C8762B6226C61CC009B6B24 /* ClassCVCell.swift in Sources */,
+				6C6A58DA2262DA8C00CC9C48 /* CalendarVC.swift in Sources */,
+				6C49EDD22262951E00BC95D8 /* AppDelegate.swift in Sources */,
+				6C8762C0226D7F28009B6B24 /* TabBarVC.swift in Sources */,
+				6CFB741B22658247006C6166 /* Helper.swift in Sources */,
+				6C8762CA2272D983009B6B24 /* Instructor.swift in Sources */,
+				6C430564226954C800B2F81A /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDE12262952000BC95D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C49EDEA2262952000BC95D8 /* CPOHSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C49EDEC2262952000BC95D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C49EDF52262952000BC95D8 /* CPOHSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4305322268664E00B2F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TenClock;
+			targetProxy = 6C4305312268664E00B2F81A /* PBXContainerItemProxy */;
+		};
+		6C4305622268691C00B2F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			targetProxy = 6C4305612268691C00B2F81A /* PBXContainerItemProxy */;
+		};
+		6C49EDE72262952000BC95D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C49EDCD2262951E00BC95D8 /* CPOHScheduler */;
+			targetProxy = 6C49EDE62262952000BC95D8 /* PBXContainerItemProxy */;
+		};
+		6C49EDF22262952000BC95D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C49EDCD2262951E00BC95D8 /* CPOHScheduler */;
+			targetProxy = 6C49EDF12262952000BC95D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C49EDD52262951E00BC95D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C49EDD62262951E00BC95D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C49EDDD2262952000BC95D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C49EDDE2262952000BC95D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C49EDF72262952000BC95D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6C49EDF82262952000BC95D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C49EDFA2262952000BC95D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC5B097328BA2D8E5B27EB8 /* Pods-CPOHScheduler.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C49EDFB2262952000BC95D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805E8493A10915CEE17E3EFF /* Pods-CPOHScheduler.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C49EDFD2262952000BC95D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D48768CFE734BE5369609EB /* Pods-CPOHSchedulerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPOHScheduler.app/CPOHScheduler";
+			};
+			name = Debug;
+		};
+		6C49EDFE2262952000BC95D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981F6EB13F0B0D666DD63021 /* Pods-CPOHSchedulerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPOHScheduler.app/CPOHScheduler";
+			};
+			name = Release;
+		};
+		6C49EE002262952000BC95D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933E505458D18BDFE493317E /* Pods-CPOHSchedulerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPOHScheduler;
+			};
+			name = Debug;
+		};
+		6C49EE012262952000BC95D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68796BA3962FA1C3C7627E6 /* Pods-CPOHSchedulerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T4X4Z5DDR;
+				INFOPLIST_FILE = CPOHSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulunzha.CPOHSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPOHScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C49EDC92262951E00BC95D8 /* Build configuration list for PBXProject "CPOHScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C49EDF72262952000BC95D8 /* Debug */,
+				6C49EDF82262952000BC95D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C49EDF92262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C49EDFA2262952000BC95D8 /* Debug */,
+				6C49EDFB2262952000BC95D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C49EDFC2262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C49EDFD2262952000BC95D8 /* Debug */,
+				6C49EDFE2262952000BC95D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C49EDFF2262952000BC95D8 /* Build configuration list for PBXNativeTarget "CPOHSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C49EE002262952000BC95D8 /* Debug */,
+				6C49EE012262952000BC95D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C49EDD82262951E00BC95D8 /* CPOHScheduler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C49EDD92262951E00BC95D8 /* CPOHScheduler.xcdatamodel */,
+			);
+			currentVersion = 6C49EDD92262951E00BC95D8 /* CPOHScheduler.xcdatamodel */;
+			path = CPOHScheduler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C49EDC62262951E00BC95D8 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module DayScheduleView {
+  umbrella header "DayScheduleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

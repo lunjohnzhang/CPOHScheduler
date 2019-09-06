@@ -1,0 +1,6 @@
+framework module Pods_CPOHSchedulerUITests {
+  umbrella header "Pods-CPOHSchedulerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
